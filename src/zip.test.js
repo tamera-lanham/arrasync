@@ -19,4 +19,12 @@ describe('Zip Tests', () => {
 
     expect(zip(firstArray, secondArray)).toEqual(expectedResult);
   });
+  test('zip should combine three arrays', () => {
+    const firstArray = ['a', 'b', 'c'];
+    const secondArray = ['x', 'y', 'z'];
+    const thirdArray = [1, 2, 3];
+    const expectedResult = [['a', 'x', 1], ['b', 'y', 2], ['c', 'z', 3]];
+
+    expect(zip(firstArray, secondArray, thirdArray)).toEqual(expectedResult);
+  });
 });
