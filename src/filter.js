@@ -1,9 +1,9 @@
 const zip = require('./zip');
 
-const filter = async (array, filter) => {
+const filter = async (array, filterer) => {
   const promises = [];
   for (const value of array) {
-    promises.push(filter(value));
+    promises.push(filterer(value));
   }
 
   const results = [];
