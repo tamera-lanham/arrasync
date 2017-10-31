@@ -1,21 +1,19 @@
-const zip = (array, ...arrays) => {
-  console.log(arrays[0]);
-
-  // TODO: make this more async
-  for (const otherArray of arrays) {
-    if (otherArray.length !== array.length) {
+const zip = (...arrays) => {
+  // TODO: make this more async with reduce
+  for (const array of arrays) {
+    if (array.length !== arrays[0].length) {
       throw new Error('Cannot zip arrays of unequal length');
     }
   }
 
   const results = [];
-  for (let i = 0; i < array.length; i++) {
-    const subResults = [];
-    subResults.push(array[i]);
-    for (const otherArray of arrays) {
-      subResults.push(otherArray[i]);
+  for (let i = 0; i < arrays[0].length; i++) {
+    const subList = [];
+
+    for (const array of arrays) {
+      subList.push(array[i]);
     }
-    results.push(subResults);
+    results.push(subList);
   }
 
   return results;
