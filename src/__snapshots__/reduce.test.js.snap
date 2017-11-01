@@ -1,5 +1,505 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Reduce Tests Reduce  1`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
+exports[`Reduce Tests Reduce 1`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
+exports[`Reduce Tests Reduce u 1`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
+exports[`Reduce Tests Reduce us 1`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
+exports[`Reduce Tests Reduce use 1`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
+exports[`Reduce Tests Reduce uses  1`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
+exports[`Reduce Tests Reduce uses 1`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
+exports[`Reduce Tests Reduce uses o 1`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
+exports[`Reduce Tests Reduce uses op 1`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
+exports[`Reduce Tests Reduce uses opti 1`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
+exports[`Reduce Tests Reduce uses optio 1`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
+exports[`Reduce Tests Reduce uses option 1`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
+exports[`Reduce Tests Reduce uses optiona 1`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
+exports[`Reduce Tests Reduce uses optional  1`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
+exports[`Reduce Tests Reduce uses optional a 1`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
+exports[`Reduce Tests Reduce uses optional ar 1`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
+exports[`Reduce Tests Reduce uses optional argu 1`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
+exports[`Reduce Tests Reduce uses optional argum 1`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
+exports[`Reduce Tests Reduce uses optional argume 1`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
+exports[`Reduce Tests Reduce uses optional argument 1`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
 exports[`Reduce Tests Reduce uses optional arguments 1`] = `
 Array [
   Array [
@@ -24,3 +524,105 @@ Array [
   ],
 ]
 `;
+
+exports[`Reduce Tests Reduces  1`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
+exports[`Reduce Tests Reduces 1`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
+exports[`Reduce Tests Reduces into single val 1`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
+exports[`Reduce Tests Reduces into single valu 1`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
+exports[`Reduce Tests Reduces into single value 1`] = `[Function]`;
