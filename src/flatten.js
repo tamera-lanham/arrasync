@@ -1,14 +1,19 @@
 const reduce = require('./reduce');
 
-const flatten = array => {
-  const results = [];
-  for (const value of array) {
-    if (!Array.isArray(value)) {
-      results.push(value);
-    } else {
-      results.push(...flatten(value));
-    }
-  }
+const flatten = async array => {
+  const results = await reduce(
+    array,
+    async (acc, value) => {
+      if (!Array.isArray(value)) {
+        acc.push(value);
+      } else {
+        const flattenedArray = await flatten(value);
+        acc.push(...flattenedArray);
+      }
+      return acc;
+    },
+    []
+  );
   return results;
 };
 
