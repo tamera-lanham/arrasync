@@ -7,7 +7,7 @@ const filter = async (array, filterer) => {
   }
 
   const results = [];
-  for (const [value, promise] of zip(array, promises)) {
+  for (const [value, promise] of await zip(array, promises)) {
     if (await promise) {
       results.push(value);
     }

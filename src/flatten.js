@@ -1,4 +1,4 @@
-const flatten = array => {
+const flatten = async array => {
   const results = [];
   for (const subArray of array) {
     results.push(...subArray);

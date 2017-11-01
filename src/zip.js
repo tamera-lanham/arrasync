@@ -1,4 +1,4 @@
-const zip = (...arrays) => {
+const zip = async (...arrays) => {
   // TODO: make this more async with reduce
   for (const array of arrays) {
     if (array.length !== arrays[0].length) {
@@ -19,7 +19,7 @@ const zip = (...arrays) => {
   return results;
 };
 
-const unzip = args => {
+const unzip = async args => {
   return zip(...args);
 };
 
