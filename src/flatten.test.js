@@ -1,4 +1,4 @@
-const {flatten, newFlatten} = require('./flatten');
+const {flatten} = require('./flatten');
 
 describe('flatten tests', () => {
   test('flattens a 2D list', async () => {
@@ -8,7 +8,7 @@ describe('flatten tests', () => {
   });
   test('flattens a nasty list', async () => {
     const list = [['a', [['b', 'c'], 'd', 'e'], 'f', 'g', ['h'], 'i']];
-    const result = await newFlatten(list);
+    const result = await flatten(list);
     expect(result).toEqual(['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i']);
   });
 });
