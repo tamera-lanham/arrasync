@@ -11,4 +11,16 @@ const flatten = async array => {
   );
 };
 
-module.exports = flatten;
+const newFlatten = array => {
+  const results = [];
+  for (const value of array) {
+    if (!Array.isArray(value)) {
+      results.push(value);
+    } else {
+      results.push(...newFlatten(value));
+    }
+  }
+  return results;
+};
+
+module.exports = {flatten, newFlatten};
