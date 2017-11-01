@@ -1,4 +1,4 @@
-const zip = require('./zip');
+const {zip} = require('./zip');
 
 const filter = async (array, filterer) => {
   const promises = [];

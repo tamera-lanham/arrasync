@@ -1,4 +1,4 @@
-const zip = require('./zip');
+const {zip, unzip} = require('./zip');
 
 describe('Zip Tests', () => {
   test('check length match', async () => {
@@ -19,6 +19,7 @@ describe('Zip Tests', () => {
 
     expect(zip(firstArray, secondArray)).toEqual(expectedResult);
   });
+
   test('zip should combine three arrays', () => {
     const firstArray = ['a', 'b', 'c'];
     const secondArray = ['x', 'y', 'z'];
@@ -26,5 +27,13 @@ describe('Zip Tests', () => {
     const expectedResult = [['a', 'x', 1], ['b', 'y', 2], ['c', 'z', 3]];
 
     expect(zip(firstArray, secondArray, thirdArray)).toEqual(expectedResult);
+  });
+
+  test('zip can unzip', async () => {
+    const firstArray = ['a', 'b', 'c'];
+    const secondArray = ['x', 'y', 'z'];
+    const zipped = zip(firstArray, secondArray);
+    const unzipped = unzip(zipped);
+    expect(unzipped).toEqual([firstArray, secondArray]);
   });
 });

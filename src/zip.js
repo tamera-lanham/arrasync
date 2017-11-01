@@ -19,4 +19,8 @@ const zip = (...arrays) => {
   return results;
 };
 
-module.exports = zip;
+const unzip = args => {
+  return zip(...args);
+};
+
+module.exports = {zip, unzip};
