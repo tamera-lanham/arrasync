@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Map test use arguments of mapper function 1`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
+exports[`Map test use arguments of mapper function 2`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;
+
+exports[`Map test use arguments of mapper function 3`] = `
+Array [
+  Array [
+    "a",
+    0,
+    "a",
+  ],
+  Array [
+    "b",
+    1,
+    "a",
+  ],
+  Array [
+    "c",
+    2,
+    "a",
+  ],
+  Array [
+    "d",
+    3,
+    "a",
+  ],
+]
+`;

@@ -8,4 +8,12 @@ describe('Map test', () => {
     });
     expect(mapped).toEqual([1, 1, 4, 9, 25, 64]);
   });
+
+  test('use arguments of mapper function', async () => {
+    const testArray = ['a', 'b', 'c', 'd'];
+    const mapped = await map(testArray, (value, i, array) => {
+      return [value, i, array[0]];
+    });
+    expect(mapped).toMatchSnapshot();
+  });
 });
