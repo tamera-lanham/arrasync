@@ -10,24 +10,21 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^4.10.0",
-    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
     "jest": "^21.2.1",
     "prettier": "^1.7.4"
   },
   "prettier": {
     "bracketSpacing": false,
-    "jsonEnable": [
-      "json"
-    ],
-    "javascriptEnable": [
-      "javascript",
-      "javascriptreact"
-    ],
+    "jsonEnable": ["json"],
+    "javascriptEnable": ["javascript", "javascriptreact"],
     "singleQuote": true,
     "trailingComma": "es5",
     "tabWidth": 2
-  },
-  "dependencies": {
-    "eslint-config-prettier": "^2.6.0"
   }
 }
