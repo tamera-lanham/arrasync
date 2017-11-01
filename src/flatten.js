@@ -1,9 +1,14 @@
+const reduce = require('./reduce');
+
 const flatten = async array => {
-  const results = [];
-  for (const subArray of array) {
-    results.push(...subArray);
-  }
-  return results;
+  return reduce(
+    array,
+    async (accumulator, value, i, array) => {
+      accumulator.push(...value);
+      return accumulator;
+    },
+    []
+  );
 };
 
 module.exports = flatten;
