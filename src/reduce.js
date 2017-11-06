@@ -1,6 +1,6 @@
-const reduce = async (array, reducer, accumlator) => {
+const reduce = async (array, func, accumlator) => {
   for (const [i, value] of array.entries()) {
-    accumlator = await reducer(accumlator, value, i, array);
+    accumlator = await func(accumlator, value, i, array);
   }
 
   return accumlator;

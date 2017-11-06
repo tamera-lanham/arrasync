@@ -1,7 +1,7 @@
-const map = async (array, mapper) => {
+const map = async (array, func) => {
   const promises = [];
   for (const [i, value] of array.entries()) {
-    promises.push(mapper(value, i, array));
+    promises.push(func(value, i, array));
   }
 
   const results = [];

@@ -19,8 +19,8 @@ const zip = async (...arrays) => {
   return results;
 };
 
-const unzip = async args => {
-  return zip(...args);
+const unzip = async array => {
+  return zip(...array);
 };
 
 module.exports = {zip, unzip};
