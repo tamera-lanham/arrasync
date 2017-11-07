@@ -1,7 +1,15 @@
 const reduce = require('./reduce');
 
+/**
+ * Given an arbirarily nested array, returns a flat array (no nesting) with 
+ * order preserved.
+ *  
+ * @param {Array} array - nested array
+ * 
+ * @returns {Array} - flattened array
+ */
 const flatten = async array => {
-  const results = await reduce(
+  return reduce(
     array,
     async (acc, value) => {
       if (!Array.isArray(value)) {
@@ -14,7 +22,6 @@ const flatten = async array => {
     },
     []
   );
-  return results;
 };
 
 module.exports = {flatten};
