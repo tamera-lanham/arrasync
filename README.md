@@ -122,6 +122,8 @@ Arguments:
 
 Example:
 ```javascript
+// Unzip an array
+
 const array = [[1, 'a'], [2, 'b'], [3, 'c'], [4, 'd'], [5, 'e']]
 const unzipped = await unzip(array);
 console.log(unzipped); // [[1, 2, 3, 4, 5], ['a', 'b', 'c', 'd', 'e']] 
