@@ -1,5 +1,5 @@
 # arrasync
-Async and array utilities for ES6
+Async array utilities for ES6
 
 Six functions are included in `arrasync`, all of which are async:
 * `map`
@@ -10,6 +10,23 @@ Six functions are included in `arrasync`, all of which are async:
 * `unzip`
 
 ## Installation
+```npm install --save arrasync```
+
+Import and usage:
+```javascript
+import {map} from 'arrasync';
+
+const getSquares = async () => {
+  // Map values to their squares
+
+  const array = [1, 2, 3, 4, 5];
+  const squares = await map(array, async value => value ** 2);
+  console.log(squares);
+};
+
+getSquares();  // [1, 4, 9, 16, 25]
+```
+
 
 ## Usage
 
@@ -82,14 +99,14 @@ console.log(flattened) // ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'];
 
 ### `zip(...arrays)`
 
- Takes multiple arrays and returns an array of sub-arrays, where the first sub-array holds the first element from each of the input arrays, the second sub-array holds the second element from each of the input arrays, and so on. 
+Takes multiple arrays and returns an array of sub-arrays, where the first sub-array holds the first element from each of the input arrays, the second sub-array holds the second element from each of the input arrays, and so on. 
  
  Arguments:
  * `...arrays` - any number of equal-length arrays
  
  Example:
  ```javascript
- // Zip together three arrays
+ // Zip together two arrays
  
  const numbers  = [1, 2, 3, 4, 5];
  const letters  = ['a', 'b', 'c', 'd', 'e'];
@@ -99,7 +116,7 @@ console.log(flattened) // ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'];
 
 ### `unzip(array)`
 
-Does the reverse of zip, equivalent to zip(...array).
+Does the reverse of `zip` (equivalent to `zip(...array)`).
 
 Arguments:
 * `array` - array to be unzipped
