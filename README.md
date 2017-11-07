@@ -2,12 +2,12 @@
 Async array utilities for ES6
 
 Six functions are included in `arrasync`, all of which are async:
-* `map`
-* `filter`
-* `reduce`
-* `flatten`
-* `zip`
-* `unzip`
+* [`map`](#maparray-func)
+* [`filter`](#filterarray-func)
+* [`reduce`](#reducearray-func-accumulator)
+* [`flatten`](#flattenarray)
+* [`zip`](#ziparrays)
+* [`unzip`](#unziparray)
 
 ## Installation
 ```npm install --save arrasync```
@@ -16,15 +16,14 @@ Import and usage:
 ```javascript
 import {map} from 'arrasync';
 
+// returns the squares of the whole numbers from 1 to 5
 const getSquares = async () => {
-  // Map values to their squares
-
   const array = [1, 2, 3, 4, 5];
   const squares = await map(array, async value => value ** 2);
-  console.log(squares);
+  return squares;
 };
 
-getSquares();  // [1, 4, 9, 16, 25]
+console.log(getSquares());  // [1, 4, 9, 16, 25]
 ```
 
 
