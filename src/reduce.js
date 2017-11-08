@@ -18,4 +18,4 @@ const reduce = async (array, func, accumlator) => {
   return accumlator;
 };
 
-module.exports = reduce;
+module.exports = {reduce};

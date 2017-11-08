@@ -1,4 +1,4 @@
-const map = require('./map');
+const {map} = require('./map');
 
 describe('Map test', () => {
   test('first map test', async () => {

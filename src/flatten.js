@@ -1,4 +1,4 @@
-const reduce = require('./reduce');
+const {reduce} = require('./reduce');
 
 /**
  * Given an arbirarily nested array, returns a flat array (no nesting) with 

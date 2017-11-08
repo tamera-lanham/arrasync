@@ -1,4 +1,4 @@
-const map = require('./map');
+const {map} = require('./map');
 
 /**
  * Takes multiple arrays and returns an array of sub-arrays, where the first 

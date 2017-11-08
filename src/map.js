@@ -22,4 +22,4 @@ const map = async (array, func) => {
   return results;
 };
 
-module.exports = map;
+module.exports = {map};

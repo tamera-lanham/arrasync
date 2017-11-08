@@ -26,4 +26,4 @@ const filter = async (array, func) => {
   return results;
 };
 
-module.exports = filter;
+module.exports = {filter};

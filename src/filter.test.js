@@ -1,4 +1,4 @@
-const filter = require('./filter');
+const {filter} = require('./filter');
 
 describe('Filter test', () => {
   test('first filter test', async () => {

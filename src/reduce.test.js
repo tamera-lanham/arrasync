@@ -1,4 +1,4 @@
-const reduce = require('./reduce');
+const {reduce} = require('./reduce');
 
 describe('Reduce Tests', () => {
   test('Reduces into single value', async () => {
