@@ -1,5 +1,5 @@
 {
-  "name": "api-utils",
+  "name": "arrasync",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
@@ -22,13 +22,8 @@
   },
   "prettier": {
     "bracketSpacing": false,
-    "jsonEnable": [
-      "json"
-    ],
-    "javascriptEnable": [
-      "javascript",
-      "javascriptreact"
-    ],
+    "jsonEnable": ["json"],
+    "javascriptEnable": ["javascript", "javascriptreact"],
     "singleQuote": true,
     "trailingComma": "es5",
     "tabWidth": 2
