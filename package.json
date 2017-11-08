@@ -1,6 +1,6 @@
 {
   "name": "arrasync",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -22,8 +22,13 @@
   },
   "prettier": {
     "bracketSpacing": false,
-    "jsonEnable": ["json"],
-    "javascriptEnable": ["javascript", "javascriptreact"],
+    "jsonEnable": [
+      "json"
+    ],
+    "javascriptEnable": [
+      "javascript",
+      "javascriptreact"
+    ],
     "singleQuote": true,
     "trailingComma": "es5",
     "tabWidth": 2
