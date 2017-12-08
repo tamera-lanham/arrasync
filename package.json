@@ -6,6 +6,10 @@
   "scripts": {
     "test": "jest --watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tamera-lanham/arrasync.git"
+  },
   "author": "",
   "license": "MIT",
   "devDependencies": {
@@ -22,13 +26,8 @@
   },
   "prettier": {
     "bracketSpacing": false,
-    "jsonEnable": [
-      "json"
-    ],
-    "javascriptEnable": [
-      "javascript",
-      "javascriptreact"
-    ],
+    "jsonEnable": ["json"],
+    "javascriptEnable": ["javascript", "javascriptreact"],
     "singleQuote": true,
     "trailingComma": "es5",
     "tabWidth": 2
