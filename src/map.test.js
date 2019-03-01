@@ -16,4 +16,21 @@ describe('Map test', () => {
     });
     expect(mapped).toMatchSnapshot();
   });
+
+  test('Should catch async errors', async () => {
+    const testArray = ['a', 'b'];
+    try {
+      await map(testArray, async (item) => {
+        try {
+          // simulate async error happening
+          throw new Error('bang');
+        } catch (e) {
+          throw e
+        }
+      });
+    } catch (e) {
+      expect(e.message).toBe('bang');
+    }
+    
+  });
 });
