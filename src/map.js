@@ -14,12 +14,7 @@ const map = async (array, func) => {
     promises.push(func(value, i, array));
   }
 
-  const results = [];
-  for (const promise of promises) {
-    results.push(await promise);
-  }
-
-  return results;
+  return Promise.all(promises);
 };
 
 module.exports = {map};
