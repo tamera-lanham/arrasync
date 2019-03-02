@@ -8,7 +8,7 @@
   * function to be called for each value of array. Optionally can take the 
   * index of each value and the array being mapped as arguments.
 */
-const map = async (array, func) => {
+const map = (array, func) => {
   const promises = [];
   for (const [i, value] of array.entries()) {
     promises.push(func(value, i, array));
