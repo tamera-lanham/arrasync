@@ -1,4 +1,4 @@
-module.exports = function() {
+module.exports = () => {
   return {
     files: ['src/**/*.js', '!src/**/*.test.js'],
 
